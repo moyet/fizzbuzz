@@ -1,10 +1,10 @@
 
-def mapbang(i):
+def mapbuzz(i):
     out = ''
     if i % 3 == 0:
         out += 'Fizz'
     if i % 5 == 0:
-        out +=  "Bang"
+        out +=  "Buzz"
     if not out:
         out = str(i)
 
@@ -12,7 +12,7 @@ def mapbang(i):
 
 
 def main():
-    my_list = map(mapbang, range(1, 101))
+    my_list = map(mapbuzz, range(1, 101))
     for i in my_list:
         print(i)
 
