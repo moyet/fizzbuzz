@@ -1,3 +1,4 @@
+from primes import primes
 
 values = {
     3: "Fizz",
@@ -18,6 +19,10 @@ def newbuzz(values, collection):
 
 
 if __name__ == "__main__":
-    newbuzz(values, range(1,101))
+    pri = primes()
+    my_range = [next(pri) for i in range(1,101)]
+
+    newbuzz(values, my_range)
+
 
 
