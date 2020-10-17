@@ -23,6 +23,3 @@ if __name__ == "__main__":
     my_range = [next(pri) for i in range(1,101)]
 
     newbuzz(values, my_range)
-
-
-
