@@ -6,7 +6,7 @@ def caesar_code(input_string, key):
         if char in string.ascii_letters:
             byte  = ord(char) + key
             if chr(byte) not in string.ascii_letters:
-                byte -= 27
+                byte -= 26
             return(chr(byte))
         return char
 
