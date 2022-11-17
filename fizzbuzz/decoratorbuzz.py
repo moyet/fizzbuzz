@@ -20,9 +20,9 @@ def something(funktion):
     return fizzbuzz
 
 
-@something(lambda a  : "Fizz" if a % 3 == 0  else "")
-@something(lambda a  : "Buzz" if a % 5 == 0  else "")
-@something(lambda a  : "Bonanza" if a % 7 == 0  else "")
+@something(lambda a: "Fizz" if a % 3 == 0 else "")
+@something(lambda a: "Buzz" if a % 5 == 0 else "")
+@something(lambda a: "Bonanza" if a % 7 == 0 else "")
 def my_print(just_a_number, output):
     print(output)
 

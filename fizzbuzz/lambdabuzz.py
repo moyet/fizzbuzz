@@ -1,5 +1,5 @@
-fizz = lambda i : "Fizz" if i % 3 == 0  else ""
-buzz = lambda i : "Buzz" if i % 5 == 0 else ""
+fizz = lambda i: "Fizz" if i % 3 == 0  else ""
+buzz = lambda i: "Buzz" if i % 5 == 0 else ""
 
 def lambdabuzz():
     for i in range(1,101):
